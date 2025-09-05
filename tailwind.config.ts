@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Open Sans', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +64,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				professional: {
+					blue: '#2563EB',
+					navy: '#1F2937',
+					gray: '#6B7280',
+					light: '#F3F4F6',
+					white: '#FFFFFF'
 				}
 			},
 			borderRadius: {
